@@ -6,7 +6,7 @@
 <head>
 <style>
 </style>
-<link rel='stylesheet' href='${pageContext.request.contextPath}/css/style.css'  type="text/css" />
+<link rel='stylesheet' href="<c:url value='/css/style.css' />"  type="text/css" />
 <meta charset="UTF-8">
 <title>MVC</title>
 <script type="text/javascript">
@@ -73,7 +73,7 @@
          </c:if>
 </Form>
 <p/>
-<small>&lt;&lt;<a href="queryMember.do">回上一頁</a>&gt;&gt;</small>
+<small>&lt;&lt;<a href="<c:url value='/ch01/queryMember.do' />">回上一頁</a>&gt;&gt;</small>
 </div>
 </body>
 
